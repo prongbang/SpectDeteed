@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB410B5722E42489001AA101 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB410B5622E42489001AA101 /* CarView.swift */; };
+		FB410B5922E42EDB001AA101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB410B5822E42EDB001AA101 /* Assets.xcassets */; };
 		FB45A53D22E3735200BA3D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45A53C22E3735200BA3D23 /* AppDelegate.swift */; };
 		FB45A53F22E3735200BA3D23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45A53E22E3735200BA3D23 /* SceneDelegate.swift */; };
 		FB45A54122E3735200BA3D23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45A54022E3735200BA3D23 /* ContentView.swift */; };
-		FB45A54322E3735400BA3D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB45A54222E3735400BA3D23 /* Assets.xcassets */; };
 		FB45A54622E3735400BA3D23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB45A54522E3735400BA3D23 /* Preview Assets.xcassets */; };
 		FB45A54922E3735400BA3D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB45A54722E3735400BA3D23 /* LaunchScreen.storyboard */; };
+		FB45A55122E3745500BA3D23 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45A55022E3745500BA3D23 /* HeaderView.swift */; };
+		FB45A55322E3770F00BA3D23 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45A55222E3770F00BA3D23 /* CircleImageView.swift */; };
+		FB45A55522E381FA00BA3D23 /* DetectPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45A55422E381FA00BA3D23 /* DetectPointView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB410B5622E42489001AA101 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		FB410B5822E42EDB001AA101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB45A53922E3735200BA3D23 /* SpectDeteed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectDeteed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB45A53C22E3735200BA3D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB45A53E22E3735200BA3D23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB45A54022E3735200BA3D23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FB45A54222E3735400BA3D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB45A54522E3735400BA3D23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB45A54822E3735400BA3D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB45A54A22E3735400BA3D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB45A55022E3745500BA3D23 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FB45A55222E3770F00BA3D23 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		FB45A55422E381FA00BA3D23 /* DetectPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectPointView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +67,13 @@
 				FB45A53C22E3735200BA3D23 /* AppDelegate.swift */,
 				FB45A53E22E3735200BA3D23 /* SceneDelegate.swift */,
 				FB45A54022E3735200BA3D23 /* ContentView.swift */,
-				FB45A54222E3735400BA3D23 /* Assets.xcassets */,
+				FB45A55022E3745500BA3D23 /* HeaderView.swift */,
+				FB45A55222E3770F00BA3D23 /* CircleImageView.swift */,
+				FB45A55422E381FA00BA3D23 /* DetectPointView.swift */,
+				FB410B5622E42489001AA101 /* CarView.swift */,
 				FB45A54722E3735400BA3D23 /* LaunchScreen.storyboard */,
 				FB45A54A22E3735400BA3D23 /* Info.plist */,
+				FB410B5822E42EDB001AA101 /* Assets.xcassets */,
 				FB45A54422E3735400BA3D23 /* Preview Content */,
 			);
 			path = SpectDeteed;
@@ -134,8 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB45A54922E3735400BA3D23 /* LaunchScreen.storyboard in Resources */,
+				FB410B5922E42EDB001AA101 /* Assets.xcassets in Resources */,
 				FB45A54622E3735400BA3D23 /* Preview Assets.xcassets in Resources */,
-				FB45A54322E3735400BA3D23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB410B5722E42489001AA101 /* CarView.swift in Sources */,
 				FB45A53D22E3735200BA3D23 /* AppDelegate.swift in Sources */,
 				FB45A53F22E3735200BA3D23 /* SceneDelegate.swift in Sources */,
+				FB45A55522E381FA00BA3D23 /* DetectPointView.swift in Sources */,
 				FB45A54122E3735200BA3D23 /* ContentView.swift in Sources */,
+				FB45A55322E3770F00BA3D23 /* CircleImageView.swift in Sources */,
+				FB45A55122E3745500BA3D23 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

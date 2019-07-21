@@ -10,7 +10,19 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        Text("Hello World")
+        VStack {
+            VStack(alignment: .leading) {
+                HeaderView()
+                Text("Detect Point")
+            }
+            DetectPointView()
+            Spacer()
+            Image("road")
+                .resizable()
+                .frame(width: 250.0, height: 300.0)
+            Spacer()
+            CarView()
+        }.padding()
     }
 }
 
